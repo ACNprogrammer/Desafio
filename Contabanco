@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class ContaTerminal {
+
+    public static void main(string [] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int Numero;
+        String Agencia;
+        String NomeCliente;
+        double Saldo;
+
+        System.out.println("Nome do Cliente: ");
+        NomeCliente = scanner.nextline ();
+
+        System.out.println("Qual a Agencia: ");
+        Agencia = scanner.nextline ();
+
+        System.out.println("Qual o número da Agencia: ");
+        Numero = scanner.nextint ();
+
+        System.out.println("Qual o saldo: ");
+        Saldo = scanner.nextdouble ();
+
+        System.out.println("Olá" + NomeCliente + ", obrigado por abrir uma conta no nosso banco, sua agência é:" + Agencia + ", conta: " + Numero + "e seu saldo: " + Saldo + "já esta disponivel para saque");
+    }
+
+}
